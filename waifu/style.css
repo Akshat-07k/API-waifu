@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+
+header{
+    padding: 2vh 2vw;
+    background-color: darkorchid;
+}
+header > select{
+    margin-left: 30vw;
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    background-color:violet;
+}
+header > input{
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    width: 5vw;
+}
+header > button{
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    background-color:yellowgreen;
+}
+main{
+    /* width: 100%; */
+
+    padding: 5vh 5vw;
+}
+.content{
+    border: 2px solid black;
+    /* height: 80vh; */
+    width: 100%;
+    padding: 4vh 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+    height: 50vh;
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.img{
+    width: 25vw;
+    height: 40vh;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+}
+.Name{
+    padding: 1vh 1vw;
+    font-size: 1.2rem;
+    font-family: sans-serif;    
+}
+
+
